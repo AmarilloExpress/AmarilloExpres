@@ -1,3 +1,18 @@
+section,nav,img{
+  animation: subir 2s ease-in-out forwards;
+}
+
+@keyframes subir {
+  from {
+      transform: translateY(50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 146px;
 }
@@ -9,16 +24,7 @@
   width: 852px;
   margin: 29px auto 40px;
 }
-header{ 
-  transition: 0.7s;
-  
-  }
-  header.abajo{
-  background-color: white;
-  }
-  header.abajo ul li {
-  color: black;
-  }
+
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
     width: 720px;
@@ -93,7 +99,7 @@ header{
 .u-section-2 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/happy-kids-elementary-school.jpg");
+  background-image: url("images/5137cc04-2d35-4a19-84fe-36a2159ae73f.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -208,8 +214,9 @@ header{
 .u-section-3 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/close-up-little-girl-having-fun-birthday-party_1098-1319.jpeg");
-  background-position: 50% 50%;
+  background-image: url("images/2105baac-2a40-422b-b618-be5a6618aa19.jpg");
+  background-position: 50% 19.23%;
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -391,8 +398,9 @@ header{
 .u-section-4 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/happy-kids-elementary-school.jpg");
-  background-position: 50% 50%;
+  background-image: url("images/5e424d22-62e0-439c-a10a-fc09eb14b60a.jpg");
+  background-position: 50% 61.29%;
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -506,8 +514,9 @@ header{
 .u-section-5 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/close-up-little-girl-having-fun-birthday-party_1098-1319.jpeg");
-  background-position: 50% 50%;
+  background-image: url("images/4cae5f3d-536b-4b44-b1c8-ebe9032df431.jpg");
+  background-position: 50% 16.15%;
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -689,7 +698,7 @@ header{
 .u-section-6 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/happy-kids-elementary-school.jpg");
+  background-image: url("images/8495dc90-9362-441b-ae9f-d7418d304e83.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -804,8 +813,9 @@ header{
 .u-section-7 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/close-up-little-girl-having-fun-birthday-party_1098-1319.jpeg");
-  background-position: 50% 50%;
+  background-image: url("images/99ca83d1-8580-406b-bc7e-a6b043afa815.jpg");
+  background-position: 50% 58.21%;
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -855,6 +865,7 @@ header{
   }
 
   .u-section-7 .u-image-1 {
+    background-position: 50% 50%;
     width: 410px;
     height: 410px;
   }
@@ -898,11 +909,6 @@ header{
     padding-right: 10px;
   }
 
-  .u-section-7 .u-image-1 {
-    width: 422px;
-    height: 422px;
-  }
-
   .u-section-7 .u-layout-cell-2 {
     order: 0;
   }
@@ -925,11 +931,6 @@ header{
 
   .u-section-7 .u-layout-cell-1 {
     min-height: 274px;
-  }
-
-  .u-section-7 .u-image-1 {
-    width: 320px;
-    height: 320px;
   }
 
   .u-section-7 .u-text-2 {
@@ -1102,7 +1103,7 @@ header{
 .u-section-9 .u-image-1 {
   width: 450px;
   height: 450px;
-  background-image: url("images/close-up-little-girl-having-fun-birthday-party_1098-1319.jpeg");
+  background-image: url("images/03b7803b-d825-4452-b370-d453a5d7cc05.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
