@@ -1,18 +1,16 @@
-section,nav,img{
+section,li,img{
   animation: subir 2s ease-in-out forwards;
 }
-
 @keyframes subir {
   from {
-      transform: translateY(50px);
-      opacity: 0;
+    transform: translateY(50px);
+    opacity: 0;
   }
   to {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
-
 .u-section-1 .u-sheet-1 {
   min-height: 146px;
 }
